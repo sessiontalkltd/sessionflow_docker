@@ -12,7 +12,7 @@ services:
     links:
       - mongo
   web:
-    iamge: sessiontalk/sessionflow
+    image: sessiontalk/sessionflow
     ports:
      - "1337:1337"
      - "6000:6000"
